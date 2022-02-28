@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrolment form</title>
+    <link rel="stylesheet" href="enrollment.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div id="container">
+        <!-- div for left side  -->
+        <div id="left">
+            <div class="title"> ENROLMENT FORM</div>
+            <form id="myform">
+                <lable>Name:</lable>
+                <input type="text" id="name" placeholder="student name*" required="true"><br>
+                <lable>Email:</lable>
+                <input type="text" id="email" placeholder="Enter email id*" required="true"><br>
+                <lable>phone No.:</lable>
+                <input type="number" id="phone" placeholder="student mobile*" required="true"><br>
+                <lable>Address:</lable>
+                <input type="text" id="address" placeholder="Enter address"><br>
+                <lable>Image Url:</lable>
+                <input type="text" id="imageurl" placeholder="image link" ><br>
+                <lable>Gender:</lable>
+                <select name="" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select><br>
+                <input type="submit" id="button1" value="Enroll Student"><br>
+            </form>
+            
+        </div>
+
+        <!-- div for right side  -->
+        <div id="right">
+            <div class="title">ENROLLED STUDENTS</div>
+
+            <!-- these div for append enrolled students  -->
+            <div id="showdata">
+            <!-- <div id="studentlist">
+                <div id="profile"></div>
+                <div id="info"></div>
+            </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="enrolment.js">
+
+   
+</script>

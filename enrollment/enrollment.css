@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+#container{
+    display: flex;
+    margin: auto;
+    width: 1100px;
+    height: 600px;
+    border: 1px solid teal;
+    padding: 1%;
+}
+/* style for left side  */
+#left{
+    /* display: flex; */
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid teal;
+    padding-right: 1%;
+    /* border-right: 2px solid teal; */
+}
+
+/* style for right side  */
+#right{
+    width: 50%;
+    height: 100%;
+    border-left: 2px solid teal;
+    padding-left: 1%;
+    overflow: auto;
+}
+
+/* style for upper title div  */
+.title{
+    width: 100%;
+    height: 9%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 2%;
+}
+
+/* style for input enroll form  */
+
+#lable{
+    width: 30%;
+    height: 92%;
+    border: 1px solid gray;
+}
+ #myform{
+     margin-top: 20px;
+ }
+ lable{
+     width:20%;
+     display: inline-block;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-left: 20px;
+ }
+ input{
+    margin-bottom: 20px;
+    width: 70%;
+    height: 35px;
+ }
+ #gender{
+     margin-bottom: 20px;
+     width: 20%;
+     height: 30px;
+ }
+ #button1{
+     margin-left: 24%;
+     margin-top: 20px;
+     background-color: teal;
+     color: white;
+     border: none;
+     border-radius: 10px;
+     font-size: 20px;
+ }
+ #button1:hover{
+     background-color: rgb(4, 196, 196);
+ }
+ /* styles for enroll form end  */
+
+ /* style for display enrolled students  */
+ #studentlist{
+     display: flex;
+     width: 100%;
+     height:25%;
+     border: 1px solid teal;
+     margin-top: 10px;
+ }
+
+ #profile{
+     width: 25%;
+     height: 100%;
+     border-right: 1px solid teal;
+     padding: 5px;
+    
+ }
+ #info{
+     width: 75%;
+     height: 100%;
+     padding: 5px;
+ }
+ p{
+     line-height: 10px;
+ }
+ #studentimage{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+ }
+ img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
